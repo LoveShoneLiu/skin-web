@@ -5,6 +5,8 @@ const PageIndexCom = () => import('componentsPath/PageIndexCom');
 const ArticleCom = () => import('componentsPath/ArticleCom');
 const WriteCom = () => import('componentsPath/WriteCom');
 const ArticleCon = () => import('componentsPath/ArticleCon');
+const InCompany = () => import('componentsPath/InCompany');
+const ContactCom = () => import('componentsPath/ContactCom');
 
 // const articleCom = {
 //     render: h => h('div', '文章')
@@ -78,6 +80,20 @@ const routes = [
             requiresAuth: true
         }
     }, 
+    {
+        path: '/InCompany',
+        component: InCompany,
+        meta: {
+            requiresAuth: true
+        }
+    },
+    {
+        path: '/ContactCom',
+        component: ContactCom,
+        meta: {
+            requiresAuth: true
+        }
+    },
     // {
     //     path: '/login',
     //     component: Login

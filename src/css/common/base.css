@@ -43,7 +43,8 @@ textarea {
 }
 
 body {
-	background: #f7f7f7;
+	/* background: #f7f7f7; */
+	background: #fff;
   font-family: "黑体", "宋体", "Arail";
 }
 html, body {

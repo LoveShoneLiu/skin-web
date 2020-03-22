@@ -7,11 +7,11 @@
                     <img class="logo" src="http://admin.lvshou.net/Uploads/logo/636252766211085961.png">
                 </div>
             </router-link>
-            <div class="page__nav-item">
+            <router-link class="page__nav-item" to="/pageIndex">
                 <p>首页</p>
                 <p>HOME</p>
-            </div>
-            <el-dropdown class="page__nav-item">
+            </router-link>
+            <!-- <el-dropdown class="page__nav-item">
                 <div>
                     <p>走进绿瘦</p>
                     <p>LVSHOW</p>
@@ -23,7 +23,15 @@
                     <el-dropdown-item>集团荣誉</el-dropdown-item>
                     <el-dropdown-item>集团发展历程</el-dropdown-item>
                 </el-dropdown-menu>
-            </el-dropdown>
+            </el-dropdown> -->
+            <router-link class="page__nav-item" to="/InCompany">
+                <p>走进绿瘦</p>
+                <p>LVSHOW</p>
+            </router-link>
+            <router-link class="page__nav-item" to="/ContactCom">
+                <p>联系我们</p>
+                <p>CONTACT US</p>
+            </router-link>
             <!-- <el-dropdown>
                 <span class="el-dropdown-link">
                     下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
