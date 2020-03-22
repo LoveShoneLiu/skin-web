@@ -6,6 +6,7 @@
                 <router-view>
                 </router-view>
             </div>
+            <PageBottom></PageBottom>
         </div>
         <div v-if="!isLogin" style="width: 100%;height: 100%;">
             <Login></Login>
@@ -17,6 +18,7 @@
     import qs from 'qs';
     import Login from '../Login';
     import Nav from '../Nav';
+    import PageBottom from '../PageBottom';
     import store from 'rootPath/store/';
     import { mapState, mapMutations } from 'vuex';
     export default ({
@@ -30,7 +32,8 @@
         }),
         components: {
             Login,
-            Nav
+            Nav,
+            PageBottom
         }
     })
 </script>
