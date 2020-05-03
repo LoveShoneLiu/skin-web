@@ -47,7 +47,7 @@
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --public --inline --devtool eval --progress --colors --hot --history-api-fallback",
     "pratice": "NODE_ENV=development webpack-dev-server --config ./webpack.config.pratice.js  --public --inline --devtool eval --progress --colors --hot --history-api-fallback",
-    "build": "NODE_ENV=pruduction webpack --progress --watch --colors"
+    "build": "NODE_ENV=pruduction webpack --progress --colors"
   },
   "author": "",
   "license": "ISC"
