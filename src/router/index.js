@@ -1,4 +1,5 @@
 import Test from '../components/Test';
+import { isMobile } from '../js/common/utils.js';
 const ImageCom = () => import('componentsPath/ImageCom');
 const AdminCom = () => import('componentsPath/AdminCom');
 const PageIndexCom = () => import('componentsPath/PageIndexCom');
@@ -8,6 +9,9 @@ const ArticleCon = () => import('componentsPath/ArticleCon');
 const InCompany = () => import('componentsPath/InCompany');
 const ContactCom = () => import('componentsPath/ContactCom');
 const Service = () => import('componentsPath/Service');
+const CompanyProfile =() => import('componentsPath/CompanyProfile');
+
+// console.log('isMobile', isMobile());
 
 // const articleCom = {
 //     render: h => h('div', '文章')
@@ -89,6 +93,13 @@ const routes = [
         }
     },
     {
+        path: '/CompanyProfile',
+        component: CompanyProfile,
+        meta: {
+            requiresAuth: true
+        }
+    },
+    {
         path: '/ContactCom',
         component: ContactCom,
         meta: {
@@ -117,5 +128,7 @@ const routes = [
         }
     }
 ]
+
+const mobileRoutes = [];
 
 export default routes;

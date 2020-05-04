@@ -183,5 +183,27 @@ export const changeNum = num => {
   return num < 10 ? '0' + num : '' + num;
 }
 
+export const isIOS = () => {
+  const UA = window.navigator.userAgent.toLowerCase();
+  const isIOS = UA && /iphone|ipad|ipod|ios/.test(UA);
+  return isIOS;
+}
+
+export const isAndroid = () => {
+  const UA = window.navigator.userAgent.toLowerCase();
+  const isAndroid = UA && UA.indexOf('android') > 0;
+  return isAndroid;
+}
+
+export const isMobile = () => {
+  const UA = window.navigator.userAgent.toLowerCase();
+  const isIE = UA && /msie|trident/.test(UA);
+  const isIE9 = UA && UA.indexOf('msie 9.0') > 0;
+  const isEdge = UA && UA.indexOf('edge/') > 0;
+  const isAndroid = UA && UA.indexOf('android') > 0;
+  const isIOS = UA && /iphone|ipad|ipod|ios/.test(UA);
+  return isAndroid || isIOS;
+}
+
 
 

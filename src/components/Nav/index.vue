@@ -24,7 +24,8 @@
                     <el-dropdown-item>集团发展历程</el-dropdown-item>
                 </el-dropdown-menu>
             </el-dropdown> -->
-            <router-link class="page__nav-item" active-class="active" to="/InCompany">
+            <!-- <router-link class="page__nav-item" active-class="active" to="/InCompany"> -->
+            <router-link class="page__nav-item" active-class="active" to="/CompanyProfile">
                 <p>公司简介</p>
                 <p>COMPANY</p>
             </router-link>
