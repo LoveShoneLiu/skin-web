@@ -10,10 +10,10 @@
                     <div class="item-child icon icon1"></div>
                     <div class="item-child con-title">为美丽而生</div>
                     <div class="item-child con">致力于让健康和美好身材并存。以专心专业专注的精神服务好每一个客户，焕发出最美好的形态。</div>
-                    <div class="item-child info">
+                    <router-link to="/Service" class="item-child info">
                         查看更多产品
                         <span>></span>
-                    </div>
+                    </router-link>
                 </div>
             </div>
             <div class="main_item">
@@ -21,10 +21,10 @@
                     <div class="item-child icon icon2"></div>
                     <div class="item-child con-title">为健康而生</div>
                     <div class="item-child con">致力于让健康和美好身材并存。以专心专业专注的精神服务好每一个客户，焕发出最美好的形态。</div>
-                    <div class="item-child info">
+                    <router-link to="/Service" class="item-child info">
                         查看更多产品
                         <span>></span>
-                    </div>
+                    </router-link>
                 </div>
             </div>
             <div class="main_item">
@@ -32,10 +32,10 @@
                     <div class="item-child icon icon3"></div>
                     <div class="item-child con-title">为专业而生</div>
                     <div class="item-child con">致力于让健康和美好身材并存。以专心专业专注的精神服务好每一个客户，焕发出最美好的形态。</div>
-                    <div class="item-child info">
+                    <router-link to="/Service" class="item-child info">
                         查看更多产品
                         <span>></span>
-                    </div>
+                    </router-link>
                 </div>
             </div>
             <div class="main_item">
@@ -43,10 +43,10 @@
                     <div class="item-child icon icon4"></div>
                     <div class="item-child con-title">为安全而生</div>
                     <div class="item-child con">致力于让健康和美好身材并存。以专心专业专注的精神服务好每一个客户，焕发出最美好的形态。</div>
-                    <div class="item-child info">
+                    <router-link to="/Service" class="item-child info">
                         查看更多产品
                         <span>></span>
-                    </div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -81,10 +81,14 @@ export default {
 .main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     .main_item {
+        display: flex;
+        flex: 1;
         width: 281px;
         /* height: 200px; */
-        margin-right: 25px;
+        margin-right: 12px;
+        margin-left: 12px;
         border: 1px solid #DEDEDE;
         &:hover {
             box-shadow: 0 0 3px 3px #EEE;
@@ -94,6 +98,7 @@ export default {
             }
         }
         .item-con {
+            flex: 1;
             display: flex;
             flex-direction: column;
             /* justify-content: center; */
