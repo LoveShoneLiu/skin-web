@@ -3,8 +3,8 @@
         <div class="page__nav clearfix">
             <router-link class="page__nav-logo" to="/pageIndex">
                 <div class="logo__box">
-                    <img class="logo__bg" src="../../images/logo-bg.png" />
-                    <img class="logo" src="http://admin.lvshou.net/Uploads/logo/636252766211085961.png">
+                    <!-- <img class="logo__bg" src="../../images/logo-bg.png" /> -->
+                    <img class="logo" src="../../images/logo4.png">
                 </div>
             </router-link>
             <router-link class="page__nav-item" active-class="active" to="/pageIndex">
@@ -68,7 +68,7 @@ export default {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background: #fafafa;
+    /* background: #fafafa; */
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.1);
 }
 .page__nav {
@@ -79,6 +79,9 @@ export default {
     /* border: 1px solid black; */
 }
 .logo__box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     width: 520px;
     height: 100%;
     /* border: 1px solid black; */
@@ -91,12 +94,9 @@ export default {
     height: 110px;
 }
 .logo {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    margin-left: -55px;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
 }
 .page__nav-logo {
     position: relative;

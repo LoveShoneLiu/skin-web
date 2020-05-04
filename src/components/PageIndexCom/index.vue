@@ -10,7 +10,8 @@
             <CompanyInfo></CompanyInfo>
             <Product></Product>
             <Live></Live>
-            <BrandInfo></BrandInfo>
+            <Introduce></Introduce>
+            <!-- <BrandInfo></BrandInfo> -->
         </div>
     </div>
 </template>
@@ -21,6 +22,7 @@ import PageBottom from '../PageBottom';
 import BrandInfo from '../BrandInfo';
 import Live from '../Live';
 import Product from '../Product';
+import Introduce from '../Introduce';
 export default {
     data() {
         return {
@@ -37,7 +39,8 @@ export default {
         PageBottom,
         BrandInfo,
         Live,
-        Product
+        Product,
+        Introduce
     }
 }
 </script>

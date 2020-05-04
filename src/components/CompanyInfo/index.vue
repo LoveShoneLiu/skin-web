@@ -1,6 +1,6 @@
 <template>
     <div class="company__info-box">
-        <div class="company__info-title">走进绿瘦</div>
+        <div class="company__info-title">走进巢会</div>
         <div class="company__info">
             <div class="info__item">
                 <div class="info__item-con info__item-con-top">
@@ -12,7 +12,7 @@
                     我们是谁
                 </div>
                 <div class="info__item-con info__item-con-bottom">
-                    绿瘦创立于2007年，是一家集健康产品研发、生产、销售、服务于一体的多元化产业集团。集团旗下拥有电子商务、健康咨询、纤体连锁、地面零售、生物科技、培训学校、物流、慈善基金会等关联企业。目前绿瘦已完...
+                    巢会健康是一家集健康产品研发、生产、销售、服务于一体的多元化产业集团。集团旗下拥有电子商务、健康咨询、纤体连锁、地面零售、生物科技、培训学校、物流、慈善基金会等关联企业。目前绿瘦已完...
                 </div>
             </div>
             <div class="info__item info__item-center">
@@ -22,10 +22,10 @@
                     </div>
                 </div>
                 <div class="info__item-con info__item-con-center">
-                    绿瘦理念
+                    巢会理念
                 </div>
                 <div class="info__item-con info__item-con-bottom">
-                    绿瘦，作为国内健康体重管理方面的先行者之一，经过多年积累，绿瘦建立HEDS全维度科学体重管理体系，提出以Health（健康）、Experience（用户体验）、Data（大数据）、Science（科学）为核心的价值...
+                    巢会，作为国内健康体重管理方面的先行者之一，经过多年积累，巢会建立HEDS全维度科学体重管理体系，提出以Health（健康）、Experience（用户体验）、Data（大数据）、Science（科学）为核心的价值...
                 </div>
             </div>
             <div class="info__item">
@@ -38,7 +38,7 @@
                     研发实力
                 </div>
                 <div class="info__item-con info__item-con-bottom">
-                    绿瘦不断夯实研发实力，响应“健康中国”的国家战略，在构建大健康体系及其管理体系中，致力提升国民体质，护航国民健康。
+                    巢会不断夯实研发实力，响应“健康中国”的国家战略，在构建大健康体系及其管理体系中，致力提升国民体质，护航国民健康。
                 </div>
             </div>
         </div>

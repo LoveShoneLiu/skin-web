@@ -40,7 +40,7 @@
         mounted() {}
     })
 </script>
-<style>
+<style scoped lang="postcss">
     .header__bar {
         height: 80px;
         border: 1px solid black;

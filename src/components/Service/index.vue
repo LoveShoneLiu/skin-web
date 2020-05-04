@@ -1,73 +1,46 @@
 <template>
     <div class="product__com">
-        <div class="product1">
-            <div class="product1-item">
-                <div class="item item-pic">
-                    <img src="../../images/9.png" />
-                </div>
-                <div class="item item-info">
-                    <div class="item-title">全方位多角度的健康管理</div>
-                    <div class="item-btn">
-                        <!-- <div class="btn">查看产品 ></div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="product1-item">
-                <div class="item item-pic">
-                    <img src="../../images/10.png" />
-                </div>
-                <div class="item item-info">
-                    <div class="item-title">健康测评</div>
-                    <div class="item-btn">
-                        <!-- <div class="btn">查看产品 ></div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="product1-item">
-                <div class="item item-pic">
-                    <img src="../../images/11.png" />
-                </div>
-                <div class="item item-info">
-                    <div class="item-title">合理膳食</div>
-                    <div class="item-btn">
-                        <!-- <div class="btn">查看产品 ></div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="product1-item">
-                <div class="item item-pic">
-                    <img src="../../images/12.png" />
-                </div>
-                <div class="item item-info">
-                    <div class="item-title">健康管理</div>
-                    <div class="item-btn">
-                        <!-- <div class="btn">查看产品 ></div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="product1-item">
-                <div class="item item-pic">
-                    <img src="../../images/13.png" />
-                </div>
-                <div class="item item-info">
-                    <div class="item-title">健康要多关注和重视</div>
-                    <div class="item-btn">
-                        <!-- <div class="btn">查看产品 ></div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="product2"></div>
+        <ArticleZero
+            v-if="!articleId"
+        ></ArticleZero>
+        <ArticleOne
+            v-if="articleId == 1"
+        ></ArticleOne>
+        <ArticleTwo
+            v-if="articleId == 2"
+        ></ArticleTwo>
+        <ArticleThree
+            v-if="articleId == 3"
+        ></ArticleThree>
+        <ArticleFour
+            v-if="articleId == 4"
+        ></ArticleFour>
     </div>
 </template>
 
 <script>
+import ArticleZero from './ArticleZero.vue';
+import ArticleOne from './ArticleOne.vue';
+import ArticleTwo from './ArticleTwo.vue';
+import ArticleThree from './ArticleThree.vue';
+import ArticleFour from './ArticleFour.vue';
 export default {
     data() {
         return {
+            articleId: 0,
         }
     },
     components: {
+        ArticleZero,
+        ArticleOne,
+        ArticleTwo,
+        ArticleThree,
+        ArticleFour
+    },
+    mounted() {
+        this.articleId = this.$route.query.articleId || null;
+        console.log('this.$route', this.$route.query);
+        console.log('this.articleId', this.articleId);
     }
 }
 </script>

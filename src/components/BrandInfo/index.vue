@@ -1,31 +1,31 @@
 <template>
     <div class="brand__com">
-        <div class="brand__title">绿瘦品牌平台.LVSHOU BRANDS</div>
+        <div class="brand__title">巢会品牌平台.CHAOHUI BRANDS</div>
         <div class="brand__con">
             <div class="brand__con-item">
                 <div class="item">
                     <div class="item__qr">
-                        <img src="http://admin.lvshou.net/Uploads/adv/636779796140212032.jpg" />
+                        <img src="../../images/logo4.png" />
                     </div>
                 </div>
             </div>
             <div class="brand__con-item">
                 <div class="item">
                     <div class="item__qr">
-                        <img src="http://admin.lvshou.net/Uploads/adv/636779796140212032.jpg" />
+                        <img src="../../images/logo4.png" />
                     </div>
                 </div>
             </div>
             <div class="brand__con-item">
                 <div class="item">
                     <div class="item__qr">
-                        <img src="http://admin.lvshou.net/Uploads/adv/636779796140212032.jpg" />
+                        <img src="../../images/logo4.png" />
                     </div>
                 </div></div>
             <div class="brand__con-item">
                 <div class="item">
                     <div class="item__qr">
-                        <img src="http://admin.lvshou.net/Uploads/adv/636779796140212032.jpg" />
+                        <img src="../../images/logo4.png" />
                     </div>
                 </div></div>
         </div>
@@ -43,7 +43,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 @import '../../css/common/variable.css';
 .brand__com {
     width: $itemWidth;
@@ -67,10 +67,10 @@ export default {
     align-items: center;
     cursor: pointer;
     .item {
-        width: 187px;
-        height: 153px;
+        width: 180px;
+        height: 170px;
         /* border: 1px solid black; */
-        background-image: url('http://admin.lvshou.net/Uploads/adv/636779795394052859.jpg');
+        background-image: url('../../images/logo4.png');
         background-size: 100% 100%;
         border-radius: 6px;
         .item__qr {

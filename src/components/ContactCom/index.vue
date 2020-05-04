@@ -121,9 +121,10 @@ export default {
         }
     }
     .contact {
-        padding-top: 60px;
+        padding-top: 40px;
         p {
-            font-size: 20px;
+            color: rgb(127, 127, 127);
+            font-size: 16px;
         }
     }
 }

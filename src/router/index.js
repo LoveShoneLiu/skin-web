@@ -108,6 +108,7 @@ const routes = [
     },
     {
         path: '/Service',
+        name: 'Service',
         component: Service,
         meta: {
             requiresAuth: true
