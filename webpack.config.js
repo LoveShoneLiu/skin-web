@@ -92,7 +92,7 @@ const config = {
             
             // 处理 css文件中出现的 url, 会自动帮你引入里面要引入的模块,use处理顺序是从右往左，先css-loader在style-loader
             {
-                test: /\.css$/,
+                test: /\.(css|postcss|scss|less)$/,
                 use: ['vue-style-loader', 'style-loader', 'css-loader', { loader: 'postcss-loader', options: { sourceMap: true } }],
             },
 

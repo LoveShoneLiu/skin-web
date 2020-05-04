@@ -66,19 +66,19 @@ export default {
 }
 .article {
     position: relative;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 1100px;
     background: url('../../images/leaf1.png') top right no-repeat, url('../../images/leaf1.png') center left no-repeat, url('../../images/leaf3.png') left bottom no-repeat;
 }
 .article__con-box {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    margin-left: -600px;
+    margin-left: -600px; */
     display: flex;
     justify-content: center;
-    width: 1200px;
+    /* width: 1200px; */
     height: 1100px;
     /* height: 1083px; */
     /* border: 1px solid black; */

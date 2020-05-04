@@ -59,7 +59,7 @@ export default {
 <style scoped>
 @import '../../css/common/variable.css';
 .company__info-box {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .company__info-title {
     font-size: 22px;

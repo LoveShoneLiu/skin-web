@@ -7,6 +7,7 @@ const WriteCom = () => import('componentsPath/WriteCom');
 const ArticleCon = () => import('componentsPath/ArticleCon');
 const InCompany = () => import('componentsPath/InCompany');
 const ContactCom = () => import('componentsPath/ContactCom');
+const Service = () => import('componentsPath/Service');
 
 // const articleCom = {
 //     render: h => h('div', '文章')
@@ -90,6 +91,13 @@ const routes = [
     {
         path: '/ContactCom',
         component: ContactCom,
+        meta: {
+            requiresAuth: true
+        }
+    },
+    {
+        path: '/Service',
+        component: Service,
         meta: {
             requiresAuth: true
         }

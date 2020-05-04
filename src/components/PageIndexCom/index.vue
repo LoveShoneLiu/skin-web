@@ -8,6 +8,8 @@
         </el-carousel>
         <div class="index__com-box">
             <CompanyInfo></CompanyInfo>
+            <Product></Product>
+            <Live></Live>
             <BrandInfo></BrandInfo>
         </div>
     </div>
@@ -17,6 +19,8 @@
 import CompanyInfo from '../CompanyInfo';
 import PageBottom from '../PageBottom';
 import BrandInfo from '../BrandInfo';
+import Live from '../Live';
+import Product from '../Product';
 export default {
     data() {
         return {
@@ -31,7 +35,9 @@ export default {
     components: {
         CompanyInfo,
         PageBottom,
-        BrandInfo
+        BrandInfo,
+        Live,
+        Product
     }
 }
 </script>

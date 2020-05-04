@@ -1,5 +1,5 @@
 <template>
-    <div style="width: 100%;height: 100%;background: #f6f6f6;">
+    <div style="width: 100%;background: #fff;">
         <div class="page__parent" v-if="isLogin">
             <Nav></Nav>
             <div class="main__box">
