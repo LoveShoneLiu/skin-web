@@ -8,7 +8,7 @@
                 <div class="item item-info">
                     <div class="item-title">全方位多角度的健康管理</div>
                     <div class="item-btn">
-                        <div class="btn">查看产品 ></div>
+                        <!-- <div class="btn">查看产品 ></div> -->
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                 <div class="item item-info">
                     <div class="item-title">健康测评</div>
                     <div class="item-btn">
-                        <div class="btn">查看产品 ></div>
+                        <!-- <div class="btn">查看产品 ></div> -->
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                 <div class="item item-info">
                     <div class="item-title">合理膳食</div>
                     <div class="item-btn">
-                        <div class="btn">查看产品 ></div>
+                        <!-- <div class="btn">查看产品 ></div> -->
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                 <div class="item item-info">
                     <div class="item-title">健康管理</div>
                     <div class="item-btn">
-                        <div class="btn">查看产品 ></div>
+                        <!-- <div class="btn">查看产品 ></div> -->
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                 <div class="item item-info">
                     <div class="item-title">健康要多关注和重视</div>
                     <div class="item-btn">
-                        <div class="btn">查看产品 ></div>
+                        <!-- <div class="btn">查看产品 ></div> -->
                     </div>
                 </div>
             </div>

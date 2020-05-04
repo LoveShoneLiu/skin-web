@@ -61,17 +61,20 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 @import '../../css/common/variable.css';
 .page__nav-box {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     background: #fafafa;
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.1);
 }
 .page__nav {
-    width: $pageWidth;
+    display: flex;
+    flex-direction: row;
     height: 110px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* border: 1px solid black; */
 }
 .logo__box {
@@ -99,7 +102,7 @@ export default {
     display: inline-block;
     height: 100%;
     width: 520px;
-    float: left;
+    /* float: left; */
 }
 .page__nav-item {
     display: flex;
@@ -107,7 +110,7 @@ export default {
     align-items: center;
     flex-direction: column;
     height: 100%;
-    float: left;
+    /* float: left; */
     text-align: center;
     cursor: pointer;
     padding:0 20px;
