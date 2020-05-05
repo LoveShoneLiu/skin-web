@@ -26,11 +26,9 @@
     import Login from 'componentsPath/Login';
     import Nav from 'componentsPath/Nav';
     import PageBottom from 'componentsPath/PageBottom';
-
-    import MobileNav from 'mobileComponentsPath/Nav';
     import store from 'rootPath/store/';
     import { mapState, mapMutations } from 'vuex';
-    console.log('MobileNav', MobileNav);
+    
     export default ({
         data() {
             return {
@@ -43,8 +41,7 @@
         components: {
             Login,
             Nav,
-            PageBottom,
-            MobileNav
+            PageBottom
         }
     })
 </script>

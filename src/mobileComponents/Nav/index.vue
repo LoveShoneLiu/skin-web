@@ -36,6 +36,13 @@
         },
         components: {
         },
+        watch: {
+            isShowNav(val) {
+                if (!val) {
+                    window.scrollTo(0, 0);
+                }
+            }
+        },
         computed: mapState({
             isShowNav: state => state.isShowNav
         }),

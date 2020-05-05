@@ -6,6 +6,7 @@
                 <router-view>
                 </router-view>
             </div>
+            <PageBottom></PageBottom>
         </div>
         <div v-if="!isLogin" style="width: 100%;height: 100%;">
             <Login></Login>
@@ -16,13 +17,11 @@
     import axios from 'axios';
     import qs from 'qs';
     import Login from 'componentsPath/Login';
-    import Nav from 'componentsPath/Nav';
-    import PageBottom from 'componentsPath/PageBottom';
-
+    import PageBottom from 'mobileComponentsPath/PageBottom';
     import MobileNav from 'mobileComponentsPath/Nav';
     import store from 'rootPath/store/';
     import { mapState, mapMutations } from 'vuex';
-    // console.log('MobileNav', MobileNav);
+    
     export default ({
         data() {
             return {
@@ -35,7 +34,6 @@
         }),
         components: {
             Login,
-            Nav,
             PageBottom,
             MobileNav
         },
