@@ -41,6 +41,7 @@ export default {
         this.articleId = this.$route.query.articleId || null;
         console.log('this.$route', this.$route.query);
         console.log('this.articleId', this.articleId);
+        window.scrollTo(0, 0);
     }
 }
 </script>
