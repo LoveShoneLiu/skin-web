@@ -10,18 +10,18 @@
                 <div class="line line3"></div>
             </div>
         </div>
-        <div class="nav-con" :style="{height: isShowNav ? '3.5rem' : '0'}">
-            <router-link class="nav-item" active-class="active" to="">
+        <div class="nav-con" :style="{height: isShowNav ? '3.5rem' : '0'}" @click="navBtnClick">
+            <router-link class="nav-item" active-class="active" to="/pageIndex">
                 <div class="nav-item-child">首页</div>
             </router-link>
-            <router-link class="nav-item" to="">
+            <router-link class="nav-item" active-class="active" to="/CompanyProfile">
                 <div class="nav-item-child">公司简介</div>
             </router-link>
-            <router-link class="nav-item" to="">
-                <div class="nav-item-child">服务</div>
+            <router-link class="nav-item" active-class="active" to="/ContactCom">
+                <div class="nav-item-child">联系我们</div>
             </router-link>
-            <router-link class="nav-item" to="">
-                <div class="nav-item-child">新闻</div>
+            <router-link class="nav-item" active-class="active" to="/Service">
+                <div class="nav-item-child">服务</div>
             </router-link>
         </div>
     </div>
@@ -59,6 +59,7 @@
         /* border: 1px solid black; */
         background: #fff;
         box-shadow: 0 3px 3px 0 rgba(0,0,0,0.05);
+        z-index: 1000;
         /* height: 1.6rem; */
         .nav-title {
             padding: 0 0.2rem;

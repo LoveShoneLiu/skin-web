@@ -2,7 +2,9 @@
     <div class="articleone">
         <div class="child title">应当如何注意饮食</div>
         <div class="child time">发布时间：2019-03-17 20:28:18</div>
-        <div class="child pic"></div>
+        <div class="child pic">
+            <img src="../../images/21.png" />
+        </div>
         <div class="child con">
             <p>
                 有高血脂还有高尿酸，这可怎么办？其实，高血脂和高尿酸问题，都是属于慢性代谢性的疾病，因此，同时出现并不奇怪，特别是对于某些长期体重超标，特别是腹部型肥胖的朋友来说，出现慢性代谢综合征的问题，血脂，血尿酸，甚至血糖血压都出现问题，也并不奇怪。
@@ -45,31 +47,33 @@ export default {
 
 <style scoped lang="postcss">
 .articleone {
-    padding-top: 80px;
-    margin-bottom: 80px;
+    padding: 0.2rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
     .child {
         text-align: center;
     }
     .title {
-        font-size: 30px;
+        font-size: 0.5rem;
         font-weight: bold;
-        margin-bottom: 30px;
+        margin-bottom: 0.3rem;
     }
     .time {
-        font-size: 18px;
-        margin-bottom: 20px;
+        font-size: 0.24rem;
+        margin-bottom: 0.2rem;
     }
     .con {
+        padding: 0.2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 16px;
+        font-size: 0.35rem;
         p {
             text-align: justify;
-            max-width: 1200px;
-            margin-bottom: 10px;
-            line-height: 30px;
+            /* max-width: 1200px; */
+            margin-bottom: 0.2rem;
+            line-height: 0.4rem;
         }
     }
 }

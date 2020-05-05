@@ -1,5 +1,5 @@
 <template>
-    <div class="page-index" @click="conClick">
+    <div class="page-index">
         <Product></Product>
         <Live></Live>
         <Introduce></Introduce>
@@ -24,16 +24,13 @@
         methods: {
             ...mapMutations([
                 'changeNavHandler',
-            ]),
-            conClick() {
-                this.changeNavHandler(false);
-            }
+            ])
         }
     })
 </script>
 <style scoped lang="postcss">
     @import '../../css/common/variable.css';
     .page-index {
-        padding-top: 1.6rem;
+        /* padding-top: 1.6rem; */
     }
 </style>

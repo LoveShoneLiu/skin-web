@@ -4,7 +4,10 @@ let resultRoutes = [];
 
 if (isMobile) {
     const PageIndexCom = () => import('mobileComponentsPath/PageIndexCom');
-    resultRoutes = [
+    const CompanyProfile =() => import('mobileComponentsPath/CompanyProfile');
+    const ContactCom = () => import('mobileComponentsPath/ContactCom');
+    const Service = () => import('mobileComponentsPath/Service');
+    mobileRoutes = [
         {
             path: '/',
             redirect: '/pageIndex',
@@ -28,8 +31,32 @@ if (isMobile) {
             meta: {
                 requiresAuth: true
             }
+        },
+        {
+            path: '/CompanyProfile',
+            component: CompanyProfile,
+            meta: {
+                requiresAuth: true
+            }
+        },
+        {
+            path: '/ContactCom',
+            component: ContactCom,
+            meta: {
+                requiresAuth: true
+            }
+        },
+        {
+            path: '/Service',
+            name: 'Service',
+            component: Service,
+            meta: {
+                requiresAuth: true
+            }
         }
     ];
+
+    resultRoutes = mobileRoutes;
 } else {
     // import Test from '../components/Test';
     const ImageCom = () => import('componentsPath/ImageCom');

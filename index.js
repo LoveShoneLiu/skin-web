@@ -3,6 +3,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import routes from './src/router';
 import App from './src/App';
+import MobileApp from './src/MobileApp';
 import './src/css/common/base.css';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -36,8 +37,9 @@ router.beforeEach((to, from, next) => {
 	next();
 });
 
+const resultApp = window.isMobile ? MobileApp : App;
 new Vue({
 	router,
 	store,
-	render: h =>h(App)
+	render: h =>h(resultApp)
 }).$mount('#app')
