@@ -12,7 +12,7 @@
                     我们是谁
                 </div>
                 <div class="info__item-con info__item-con-bottom">
-                    巢会健康是一家集健康产品研发、生产、销售、服务于一体的多元化产业集团。集团旗下拥有电子商务、健康咨询、纤体连锁、地面零售、生物科技、培训学校、物流、慈善基金会等关联企业。目前绿瘦已完...
+                    巢会健康是一家集健康产品研发、生产、销售、服务于一体的多元化产业集团。集团旗下拥有电子商务、健康咨询、纤体连锁、地面零售、生物科技、培训学校、物流等关联企业。
                 </div>
             </div>
             <div class="info__item info__item-center">
@@ -25,7 +25,7 @@
                     巢会理念
                 </div>
                 <div class="info__item-con info__item-con-bottom">
-                    巢会，作为国内健康体重管理方面的先行者之一，经过多年积累，巢会建立HEDS全维度科学体重管理体系，提出以Health（健康）、Experience（用户体验）、Data（大数据）、Science（科学）为核心的价值...
+                    巢会，作为国内健康体重管理方面的先行者之一，经过多年积累，巢会建立HEDS全维度科学体重管理体系，提出以Health（健康）、Experience（用户体验）、Data（大数据）、Science（科学）为核心的价值观。
                 </div>
             </div>
             <div class="info__item">
