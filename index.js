@@ -2,7 +2,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import routes from './src/router';
-import App from './src/components/App';
+import App from './src/App';
 import './src/css/common/base.css';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';

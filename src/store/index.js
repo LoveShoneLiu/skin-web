@@ -5,18 +5,23 @@ import articleState from './State/article';
 import loginMutation from './Mutations/login';
 import articleMutation from './Mutations/article';
 import articleActions from './Actions/article.js';
+import navState from './State/nav.js';
+import navMutation from './Mutations/nav.js';
+
 
 
 Vue.use(Vuex);
 
 const state = {
     ...loginState,
-    ...articleState
+    ...articleState,
+    ...navState
 };
 
 const mutations = {
     ...loginMutation,
-    ...articleMutation
+    ...articleMutation,
+    ...navMutation
 };
 
 const actions = {

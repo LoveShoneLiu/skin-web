@@ -2,11 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
+	<meta name="viewport" />
 	<title>Document</title>
 </head>
+<script>
+    function isMobile() {
+        var UA = window.navigator.userAgent.toLowerCase();
+        var isIE = UA && /msie|trident/.test(UA);
+        var isIE9 = UA && UA.indexOf('msie 9.0') > 0;
+        var isEdge = UA && UA.indexOf('edge/') > 0;
+        var isAndroid = UA && UA.indexOf('android') > 0;
+        var isIOS = UA && /iphone|ipad|ipod|ios/.test(UA);
+        return isAndroid || isIOS;
+    }
+    (function o() {
+        window.isMobile = isMobile();
+        if (isMobile) {
+            var metaEl = document.querySelector('meta[name="viewport"]');
+            metaEl.setAttribute('content', 'width=device-width,initial-scale=1,maximum-scale=1, minimum-scale=1,user-scalable=no');
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
+        }
+        console.log('isMobile', isMobile);
+    })();
+</script>
 <body>
     <div id="app">
     </div>
-<script type="text/javascript" src="./js/vendors.js"></script><script type="text/javascript" src="./js/main-9b9d35d7035c339684f4.js"></script></body>
+<script type="text/javascript" src="./js/vendors.js"></script><script type="text/javascript" src="./js/main-b2ab454f4343cdcdd028.js"></script></body>
 
 </html>
