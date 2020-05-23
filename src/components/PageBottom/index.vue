@@ -14,12 +14,15 @@
             <div class="info-wrapper">
                 <div class="info-top">
                     <div class="info-top-item info-top-beian">公安备案号：************号</div>
-                    <div class="info-top-item info-top-right">COPYRIGHT © 2007-2016 ***集团</div>
-                    <div class="info-top-item info-top-name">*********集团有限公司</div>
-                    <div class="info-top-item info-top-icp">ICP备案号：****************</div>
+                    <!-- <div class="info-top-item info-top-right">COPYRIGHT © 2007-2016 ***集团</div> -->
+                    <div class="info-top-item info-top-name">河南巢会营养健康咨询有限公司</div>
+                    <!-- <div class="info-top-item info-top-icp">ICP备案号：****************</div> -->
                 </div>
+                    <!-- 营业执照、食品经营许可证、药品经营许可证、二类医疗器械备案（含体外试剂）、开户许可证 -->
                 <div class="info-bottom">
-                    营业执照、食品经营许可证、药品经营许可证、二类医疗器械备案（含体外试剂）、开户许可证
+                    <span>售后: 400-691-2223</span>
+                    <span>质检电话: 0371-63332181</span>
+                    <span>地址: 河南省郑州市郑东新区升龙广场3号楼B座1123号</span>
                 </div>
             </div>
         </div>
@@ -37,7 +40,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 @import '../../css/common/variable.css';
 .page__bottom-rolling {
     display: flex;
@@ -113,5 +116,8 @@ export default {
     align-items: center;
     font-size: 12px;
     color: #fff;
+    span {
+        margin-right: 20px;
+    }
 }
 </style>

@@ -8,37 +8,37 @@
                 <div class="article__con">
                     <p class="title">人才战略</p>
                     <p class="con">
-                        &nbsp&nbsp&nbsp&nbsp
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         人力资源战略是集团战略发展的重要组成部分。"以人为本"是实现集团人才战略的基本原则，"吸纳人才，留住人才，发展人才"是人力资源战略的核心。
                     </p>
                     <p class="con">
-                        &nbsp&nbsp&nbsp&nbsp
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         <span>1.吸纳人才</span>：在全国范围内，不拘一格纳人才，我公司集团青睐富有创造激情的年轻复合型人才。我公司秉持---“诚信 健康 尽职尽责 纪律严明 拥抱变化”的企业价值观和“幸福工作、幸福生活、幸福传递”的文化意识。
                     </p>
                     <p class="con">
-                        &nbsp&nbsp&nbsp&nbsp
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         <span>2. 留住人才：</span>建立跟随市场变化的职位价值薪酬福利体系，为每位员工提供符合市场及岗位价值的薪酬及福利。我公司承诺——永不抛弃每一位愿为企业付出的员工。
                     </p>
                     <p class="con">
-                        &nbsp&nbsp&nbsp&nbsp
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         <span>3.发展人才：</span>我公司支持员工不断学习，提供与集团发展目标一致的各种培训与发展机会，全力提升员工竞争能力，实现企业与员工的"双赢"。
                     </p>
                     <div class="contact">
                         <p>
-                            地址：陕西省西安市未央区凤城四路90号
+                            地址: 河南省郑州市郑东新区升龙广场3号楼B座1123号
                         </p>
                         <p>
-                            电话：029-87597463
+                            售后: 400-691-2223
                         </p>
                         <p>
-                            邮编：710000
+                            邮编: 450000
                         </p>
                         <p>
-                            手机：17391795701
+                            质检: 0371-63332181
                         </p>
-                        <p>
+                        <!-- <p>
                             Q Q：643351774
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
@@ -114,6 +114,7 @@ export default {
             color: rgb(127, 127, 127);
             font-size: 0.35rem;
             line-height: 0.4rem;
+            margin-bottom: 0.2rem;
         }
     }
 }

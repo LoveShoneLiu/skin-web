@@ -4,20 +4,24 @@
             <img src="../../images/qr.png" />
         </div>
         <div class="con-text">
-            <div class="con-text-item">
+            <!-- <div class="con-text-item">
                 电话：17391795701   (9:00-18:00)
+            </div> -->
+            <div class="con-text-item">
+                <span class="tips">售&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后:</span><span class="tips-info"> 400-691-2223</span>
             </div>
             <div class="con-text-item">
-                售后： 029-87597463
+                <span class="tips">质检电话:</span><span class="tips-info"> 0371-63332181</span>
             </div>
             <div class="con-text-item">
-                地址：河南省郑州市郑东新区升龙广场B座1123
+                <span class="tips">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址:</span><span class="tips-info"> 河南省郑州市郑东新区升龙广场3号楼B座1123号</span>
             </div>
+            <div class="con-text-item"><span class="tips">版权所有:</span><span class="tips-info"> 巢会-专业健康管理方案提供商</span></div>
+            <div class="con-text-item"><span class="tips">技术支持:</span><span class="tips-info"> 2397667718@qq.com</span></div>
+            
         </div>
         <div class="con-copy">
-            <div class="con-copy-item">Copyright © **********</div>
-            <div>版权所有：巢会-专业健康管理方案提供商</div>
-            <div>**************</div>
+            <div class="con-text-item">Copyright © **********</div>
         </div>
     </div>
 </template>
@@ -57,6 +61,15 @@
     padding: 0.4rem;
     .con-text-item {
         margin-bottom: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        span {
+            display: inline-block;
+        }
+        .tips {
+            width: 1.9rem;
+            flex-shrink: 0;
+        }
     }
 }
 .con-copy {
@@ -64,6 +77,15 @@
     padding: 0.4rem;
     .con-copy-item {
         margin-bottom: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        span {
+            display: inline-block;
+        }
+        .tips {
+            width: 1.9rem;
+            flex-shrink: 0;
+        }
     }
 }
 </style>

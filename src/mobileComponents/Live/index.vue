@@ -20,17 +20,17 @@
             <div class="main-item-box">
                 <div class="main-item main-item-1">
                     <div class="item-child icon icon2"></div>
-                    <div class="item-child time">AM 08:00</div>
-                    <div class="item-child title">早餐一碗清粥，唤醒身心</div>
-                    <div class="item-child con">请给我们一个爱你的机会，塑美纤为您奉上一碗清晨的粥，赤小豆薏米代餐粉冲泡的清粥，用心感受塑美纤来自南国浓浓的爱意，感受38度6的温度。唤醒你的胃肠道，随着一碗清粥带走身体在睡眠期间沉睡的大量垃圾，健脾养胃又祛湿，刺激基础代谢率加快，加速体内脂肪代谢。美好的一天，让我们从爱开始~~</div>
+                    <div class="item-child time">AM 12:00</div>
+                    <div class="item-child title">减少疲劳，恢复活力</div>
+                    <div class="item-child con">上午长时间的工作，体内会产生大量乳酸，是一天中最容易疲劳的一个时段，吃一顿美味可口的午餐犒劳一下自己吧，切记要清淡哟，油腻高糖的食物会导致大量的脂肪堆积，前功尽弃！午觉后冲上一杯倩魅小分子肽，缓解疲劳，提神醒脑，保持身体下午最佳状态。</div>
                 </div>
             </div>
             <div class="main-item-box">
                 <div class="main-item main-item-1">
                     <div class="item-child icon icon3"></div>
-                    <div class="item-child time">AM 08:00</div>
-                    <div class="item-child title">早餐一碗清粥，唤醒身心</div>
-                    <div class="item-child con">请给我们一个爱你的机会，塑美纤为您奉上一碗清晨的粥，赤小豆薏米代餐粉冲泡的清粥，用心感受塑美纤来自南国浓浓的爱意，感受38度6的温度。唤醒你的胃肠道，随着一碗清粥带走身体在睡眠期间沉睡的大量垃圾，健脾养胃又祛湿，刺激基础代谢率加快，加速体内脂肪代谢。美好的一天，让我们从爱开始~~</div>
+                    <div class="item-child time">PM 19:00</div>
+                    <div class="item-child title">用餐时分，倍添美味</div>
+                    <div class="item-child con">38度6的水温，冲泡一碗酵素代餐粉，简单方便，缓解疲劳，激活肠道蠕动，加快体内毒素排出，平衡身体生理机能，减少人体热量的堆积，加速体内脂肪及毒素的代谢，让身体快速进入燃脂模式，美美的做个SPA，睡前半小时温水口服酵素锭，轻松燃烧体内多余的脂肪。</div>
                 </div>
             </div>
         </div>
