@@ -18,10 +18,7 @@
             </div>
             <div class="con-text-item"><span class="tips">版权所有:</span><span class="tips-info"> 巢会-专业健康管理方案提供商</span></div>
             <div class="con-text-item"><span class="tips">技术支持:</span><span class="tips-info"> 2397667718@qq.com</span></div>
-            
-        </div>
-        <div class="con-copy">
-            <div class="con-text-item">Copyright © **********</div>
+            <div class="con-text-item"><span class="tips">ICP备案:</span><span class="tips-info"> 豫ICP备20015699号-1</span></div>
         </div>
     </div>
 </template>
