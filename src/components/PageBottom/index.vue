@@ -13,7 +13,7 @@
         <div class="page__bottom-item page__bottom-info">
             <div class="info-wrapper">
                 <div class="info-top">
-                    <div class="info-top-item info-top-beian">公安备案号：************号</div>
+                    <div class="info-top-item info-top-beian">公安备案号：豫ICP备20015699号-1</div>
                     <!-- <div class="info-top-item info-top-right">COPYRIGHT © 2007-2016 ***集团</div> -->
                     <div class="info-top-item info-top-name">河南巢会营养健康咨询有限公司</div>
                     <!-- <div class="info-top-item info-top-icp">ICP备案号：****************</div> -->

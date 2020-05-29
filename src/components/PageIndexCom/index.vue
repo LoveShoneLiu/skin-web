@@ -1,8 +1,20 @@
 <template>
     <div class="page__index">
-        <el-carousel height="500px" class="carousel">
-            <el-carousel-item v-for="item in 4" :key="item">
-                <img :src="bgPic[item - 1]" />
+        <el-carousel height="600px" class="carousel">
+            <el-carousel-item>
+                <img class="top-pic" src="../../images/42.png" />
+                <!-- <h3 class="small">{{ item }}</h3> -->
+            </el-carousel-item>
+            <el-carousel-item>
+                <img class="top-pic" src="../../images/45.png" />
+                <!-- <h3 class="small">{{ item }}</h3> -->
+            </el-carousel-item>
+            <el-carousel-item>
+                <img class="top-pic" src="../../images/41.png" />
+                <!-- <h3 class="small">{{ item }}</h3> -->
+            </el-carousel-item>
+            <el-carousel-item>
+                <img class="top-pic" src="../../images/47.png" />
                 <!-- <h3 class="small">{{ item }}</h3> -->
             </el-carousel-item>
         </el-carousel>
@@ -27,10 +39,10 @@ export default {
     data() {
         return {
             bgPic: [
-                'http://admin.lvshou.net/Uploads/adv/637054343110058821.jpg',
-                'http://admin.lvshou.net/Uploads/adv/636674470839413064.jpg',
-                'http://admin.lvshou.net/Uploads/adv/636982040691797587.jpg',
-                'http://admin.lvshou.net/Uploads/adv/637031301120448135.jpg'
+                '../../images/41.png',
+                '../../images/42.png',
+                '../../images/43.png',
+                '../../images/44.png'
             ]
         }
     },
@@ -45,7 +57,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 .index__com-box {
     width: 100%;
     display: flex;
@@ -55,5 +67,9 @@ export default {
 }
 .carousel {
     height: 100%;
+    .top-pic {
+        width: 100%;
+        height: 100%;
+    }
 }
 </style>
