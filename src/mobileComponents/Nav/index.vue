@@ -87,7 +87,7 @@
                     width: 0.6rem;
                     height: 0.06rem;
                     border-radius: 0.2rem;
-                    background: #3ba7c6;
+                    background: #43a848;
                     margin-bottom: 0.15rem;
                     border: none;
                 }
@@ -113,10 +113,10 @@
                 color: #666;
                 line-height: 0.8rem;
                 &.active {
-                    color: #3ba7c6;
+                    color: #43a848;
                     .nav-item-child {
                         margin-bottom: 0.2rem;
-                        border-bottom: 0.04rem solid #3ba7c6;
+                        border-bottom: 0.04rem solid #43a848;
                     }
                 }
             }

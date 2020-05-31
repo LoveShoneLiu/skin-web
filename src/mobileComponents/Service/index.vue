@@ -1,8 +1,11 @@
 <template>
     <div class="product__com">
-        <ArticleZero
+        <!-- <ArticleZero
             v-if="!articleId"
-        ></ArticleZero>
+        ></ArticleZero> -->
+        <ServiceContact
+            v-if="!articleId"
+        ></ServiceContact>
         <ArticleOne
             v-if="articleId == 1"
         ></ArticleOne>
@@ -20,6 +23,7 @@
 
 <script>
 import ArticleZero from './ArticleZero.vue';
+import ServiceContact from './ServiceContact.vue';
 import ArticleOne from './ArticleOne.vue';
 import ArticleTwo from './ArticleTwo.vue';
 import ArticleThree from './ArticleThree.vue';
@@ -35,7 +39,8 @@ export default {
         ArticleOne,
         ArticleTwo,
         ArticleThree,
-        ArticleFour
+        ArticleFour,
+        ServiceContact
     },
     mounted() {
         this.articleId = this.$route.query.articleId || null;

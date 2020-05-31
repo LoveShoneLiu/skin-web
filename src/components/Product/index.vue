@@ -44,7 +44,7 @@
                     <div class="item-child con-title">为安全而生</div>
                     <div class="item-child con">生命是宝贵的，我们有健全的质检机构，保证产品质量安全健康。</div>
                     <router-link to="/Service" class="item-child info">
-                        查看更多产品
+                        了解更多
                         <span>></span>
                     </router-link>
                 </div>

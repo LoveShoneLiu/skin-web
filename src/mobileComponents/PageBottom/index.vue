@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #3ba7c6;
+    background: #43a848;
     color: #fff;
     padding-top: 0.8rem;
 }
