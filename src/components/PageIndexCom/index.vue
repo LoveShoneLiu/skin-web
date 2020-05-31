@@ -1,23 +1,8 @@
 <template>
     <div class="page__index">
-        <el-carousel height="600px" class="carousel">
-            <el-carousel-item>
-                <img class="top-pic" src="../../images/42.png" />
-                <!-- <h3 class="small">{{ item }}</h3> -->
-            </el-carousel-item>
-            <el-carousel-item>
-                <img class="top-pic" src="../../images/45.png" />
-                <!-- <h3 class="small">{{ item }}</h3> -->
-            </el-carousel-item>
-            <el-carousel-item>
-                <img class="top-pic" src="../../images/41.png" />
-                <!-- <h3 class="small">{{ item }}</h3> -->
-            </el-carousel-item>
-            <el-carousel-item>
-                <img class="top-pic" src="../../images/47.png" />
-                <!-- <h3 class="small">{{ item }}</h3> -->
-            </el-carousel-item>
-        </el-carousel>
+        <div class="main-bg">
+            <img src="../../images/100.jpg" />
+        </div>
         <div class="index__com-box">
             <CompanyInfo></CompanyInfo>
             <Product></Product>
@@ -35,15 +20,11 @@ import BrandInfo from '../BrandInfo';
 import Live from '../Live';
 import Product from '../Product';
 import Introduce from '../Introduce';
+
 export default {
     data() {
         return {
-            bgPic: [
-                '../../images/41.png',
-                '../../images/42.png',
-                '../../images/43.png',
-                '../../images/44.png'
-            ]
+
         }
     },
     components: {
@@ -53,11 +34,24 @@ export default {
         Live,
         Product,
         Introduce
+    },
+    directives: {
+    },
+    computed: {
+    },
+    mounted() {
     }
 }
 </script>
 
-<style scoped lang="postcss">
+<style lang="postcss">
+.main-bg {
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+    }
+}
 .index__com-box {
     width: 100%;
     display: flex;
@@ -70,6 +64,14 @@ export default {
     .top-pic {
         width: 100%;
         height: 100%;
+    }
+}
+.swiper-pagination {
+    .swiper-pagination-bullet {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .swiper-pagination-bullet-active {
+        background: rgba(255, 255, 255, 0.9);
     }
 }
 </style>

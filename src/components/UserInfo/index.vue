@@ -19,8 +19,8 @@
                 <input v-model="password" type="password" />
             </p>
             <div slot="footer" class="dialog-footer">
-                <el-button @click="isShowModal = false">取 消</el-button>
-                <el-button type="primary" @click="ok">确 定</el-button>
+                <button @click="isShowModal = false">取 消</button>
+                <button type="primary" @click="ok">确 定</button>
             </div>
         </el-dialog>
     </div>

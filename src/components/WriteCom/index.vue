@@ -2,7 +2,7 @@
     <div>
         <div class="title-box">
             <textarea class="the-title" v-model="title" placeholder="标题" />
-            <el-button class="title-publish" @click="publishArticleHandler">发布</el-button>
+            <button class="title-publish" @click="publishArticleHandler">发布</button>
             <el-select class="title-lable" v-model="label" placeholder="请选择">
                 <el-option
                 v-for="item in options"
@@ -14,7 +14,7 @@
         </div>
         <div class="con-item">
             <p class="article-tips">摘要(最多140个字)</p>
-            <el-input type="textarea" class="abstract" maxlength="140" v-model="abstract"></el-input>
+            <input type="textarea" class="abstract" maxlength="140" v-model="abstract" />
         </div>
         <div class="con-item">
             <p class="article-tips">正文</p>

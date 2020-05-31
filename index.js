@@ -5,8 +5,9 @@ import routes from './src/router';
 import App from './src/App';
 import MobileApp from './src/MobileApp';
 import './src/css/common/base.css';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+// import ElementUI from 'element-ui';
+// import { Carousel, Input, Button } from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
 import { getCookie } from 'jspath/common/utils';
 import store from 'rootPath/store/';
 import isLogin from 'rootPath/utils/auth.js';
@@ -14,8 +15,15 @@ import isLogin from 'rootPath/utils/auth.js';
 // import './style/common'
 // import './config/rem'
 
+// Vue.use(VueAwesomeSwiper, /* { default options with global component } */);
+
+// console.log('Carousel', Carousel);
+
+// Vue.use(Carousel);
+// Vue.use(Input);
+// Vue.use(Button);
+// Vue.use(ElementUI);
 Vue.use(VueRouter);
-Vue.use(ElementUI);
 const router = new VueRouter({
 	routes
 });

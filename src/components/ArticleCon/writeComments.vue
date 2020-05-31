@@ -4,7 +4,7 @@
             <textarea v-model="comment"></textarea>
         </div>
         <p>
-            <el-button type="primary" @click="writeCommentHandler">发布</el-button>
+            <button type="primary" @click="writeCommentHandler">发布</button>
         </p>
     </div>
 </template>

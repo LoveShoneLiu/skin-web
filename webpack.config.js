@@ -17,8 +17,7 @@ const config = {
         "vendors": [
             "vue",
             "vuex",
-            "vue-router",
-            "element-ui"
+            "vue-router"
         ]
     },
     output: {

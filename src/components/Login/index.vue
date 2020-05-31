@@ -3,15 +3,15 @@
         <div class="login-con">
             <div class="user__modal-item">
                 <p class="item-text">用户名：</p>
-                <el-input v-model="username" placeholder="请输入用户名"></el-input>
+                <input v-model="username" placeholder="请输入用户名" />
             </div>
             <div class="user__modal-item">
                 <p class="item-text">密码：</p>
-                <el-input v-model="password" type="password" placeholder="请输入密码"></el-input>
+                <input v-model="password" type="password" placeholder="请输入密码" />
             </div>
             <div class="user__model-btn">
-                <el-button @click="loginHandler" type="primary">登录</el-button>
-                <el-button @click="registerHandler" type="primary">注册</el-button>
+                <button @click="loginHandler" type="primary">登录</button>
+                <button @click="registerHandler" type="primary">注册</button>
             </div>
         </div>
     </div>
