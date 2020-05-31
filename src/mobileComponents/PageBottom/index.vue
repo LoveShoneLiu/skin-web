@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #43a848;
+    background: rgba(67,168,72, 0.8);
     color: #fff;
     padding-top: 0.8rem;
 }
