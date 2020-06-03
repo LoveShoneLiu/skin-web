@@ -25,17 +25,18 @@
                     </p>
                     <div class="contact">
                         <p>
-                            地址: 河南省郑州市郑东新区升龙广场3号楼B座1123号
+                            地&nbsp;&nbsp;&nbsp;址: 河南省郑州市郑东新区升龙广场3号楼B座1123号
                         </p>
                         <p>
-                            售后: 400-691-2223
+                            售&nbsp;&nbsp;&nbsp;后: 400-691-2223
                         </p>
                         <p>
-                            邮编: 450000
+                            邮&nbsp;&nbsp;&nbsp;编: 450000
                         </p>
                         <p>
-                            质检: 0371-63332181
+                            质&nbsp;&nbsp;&nbsp;检: 0371-63332181
                         </p>
+                    <p style="display: flex;justify-content: center;"><img src="../../images/qr.png" /></p>
                     </div>
                 </div>
             </div>

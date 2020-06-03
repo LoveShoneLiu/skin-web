@@ -6,7 +6,7 @@
         <div class="main">
             <div class="main_item" @click="itemClick({name: 'Service', params: {articleId: 1}})">
                 <div class="item pic">
-                    <img src="../../images/21.png" />
+                    <img src="../../images/60.png" />
                 </div>
                 <div class="item con">
                     <div class="con-title">
@@ -14,7 +14,7 @@
                         <div class="line"></div>
                     </div>
                     <div class="con-text">
-                        有高血脂还有高尿酸，这可怎么办？其实，高血脂和高尿酸问题，都是属于慢性代谢性的疾病，因此，同时出现并不奇怪，特别是对于某些长期体重超标，特别是腹部型肥胖的朋友来...
+                        有高血脂还有高尿酸，这可怎么办？其实，高血脂和高尿酸问题，都是属于慢性代谢性的疾病...
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                         <div class="line"></div>
                     </div>
                     <div class="con-text">
-                        我们很多人之所以会肥胖，是由于体内脂肪堆积过多所呈现出来的一种症状。我们知道身体的内脏一般在腹腔部位，如果内脏脂肪堆积过多，就容易呈现出肚子大的现象。腹部脂肪多...
+                        我们很多人之所以会肥胖，是由于体内脂肪堆积过多所呈现出来的一种症状。腹部脂肪多...
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
         <div class="main">
             <div class="main_item" @click="itemClick({name: 'Service', params: {articleId: 3}})">
                 <div class="item pic">
-                    <img src="../../images/22.png" />
+                    <img src="../../images/61.png" />
                 </div>
                 <div class="item con">
                     <div class="con-title">

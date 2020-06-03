@@ -3,7 +3,7 @@
         <div class="child title">应当如何注意饮食</div>
         <div class="child time">发布时间：2019-03-17 20:28:18</div>
         <div class="child pic">
-            <img src="../../images/21.png" />
+            <img src="../../images/60.png" />
         </div>
         <div class="child con">
             <p>

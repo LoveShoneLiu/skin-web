@@ -6,7 +6,7 @@
         <div class="main">
             <div class="main_item" @click="itemClick({name: 'Service', params: {articleId: 1}})">
                 <div class="item pic">
-                    <img src="../../images/21.png" />
+                    <img src="../../images/60.png" />
                 </div>
                 <div class="item con">
                     <div class="con-title">
@@ -36,7 +36,7 @@
         <div class="main">
             <div class="main_item" @click="itemClick({name: 'Service', params: {articleId: 3}})">
                 <div class="item pic">
-                    <img src="../../images/22.png" />
+                    <img src="../../images/61.png" />
                 </div>
                 <div class="item con">
                     <div class="con-title">
@@ -118,7 +118,10 @@ export default {
         width: 280px;
         height: 100%;
         box-sizing: border-box;
-    
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
     .con {
         padding: 40px 20px 0;

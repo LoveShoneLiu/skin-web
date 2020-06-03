@@ -3,7 +3,7 @@
         <div class="child title">肚子大暗示内脏脂肪过多？照着5点做，让你“甩</div>
         <div class="child time">发布时间：2019-03-17 20:27:42</div>
         <div class="child pic">
-            <img src="../../images/22.png" />
+            <img src="../../images/61.png" />
         </div>
         <div class="child con">
             <p>
