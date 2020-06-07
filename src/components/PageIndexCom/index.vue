@@ -5,6 +5,7 @@
         </div>
         <div class="index__com-box">
             <CompanyInfo></CompanyInfo>
+            <InfoBox></InfoBox>
             <Product></Product>
             <Live></Live>
             <Introduce></Introduce>
@@ -20,6 +21,7 @@ import BrandInfo from '../BrandInfo';
 import Live from '../Live';
 import Product from '../Product';
 import Introduce from '../Introduce';
+import InfoBox from '../InfoBox';
 
 export default {
     data() {
@@ -33,7 +35,8 @@ export default {
         BrandInfo,
         Live,
         Product,
-        Introduce
+        Introduce,
+        InfoBox
     },
     directives: {
     },
