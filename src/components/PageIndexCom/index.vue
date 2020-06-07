@@ -1,7 +1,7 @@
 <template>
     <div class="page__index">
         <div class="main-bg">
-            <img src="../../images/100.jpg" />
+            <img src="../../images/main.png" />
         </div>
         <div class="index__com-box">
             <CompanyInfo></CompanyInfo>

@@ -49,6 +49,7 @@ export default {
 .articleone {
     padding-top: 80px;
     margin-bottom: 80px;
+    padding: 0.2rem;
     .child {
         text-align: center;
     }
@@ -67,6 +68,7 @@ export default {
         justify-content: center;
         align-items: center;
         font-size: 16px;
+        padding: 0.2rem;
         p {
             text-align: justify;
             /* max-width: 1200px; */

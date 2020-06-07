@@ -74,6 +74,7 @@ export default {
         justify-content: center;
         align-items: center;
         font-size: 0.35rem;
+        padding: 0.2rem;
         p {
             text-align: justify;
             /* max-width: 1200px; */

@@ -70,6 +70,9 @@ export default {
     margin-bottom: 80px;
     .child {
         text-align: center;
+        .pic {
+            width: 100%;
+        }
     }
     .title {
         font-size: 30px;

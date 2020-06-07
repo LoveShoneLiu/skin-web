@@ -73,6 +73,12 @@ export default {
     margin-bottom: 2rem;
     .child {
         text-align: center;
+        &.pic {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
     }
     .title {
         font-size: 0.5rem;
