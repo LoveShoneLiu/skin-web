@@ -1,8 +1,5 @@
 <template>
     <div class="product__com">
-        <div class="main-bg">
-            <img src="../../images/100.jpg" />
-        </div>
         <div class="title">
             专为美丽而研制的
             <span>核心产品</span>
@@ -70,12 +67,6 @@ export default {
 <style scoped lang="postcss">
 .product__com {
     margin-bottom: 0.6rem;
-    .main-bg {
-        width: 100%;
-        img {
-            width: 100%;
-        }
-    }
 }
 .title {
     display: flex;
